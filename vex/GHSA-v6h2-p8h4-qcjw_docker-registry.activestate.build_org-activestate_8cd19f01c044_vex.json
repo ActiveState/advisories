@@ -1,15 +1,15 @@
 {
   "@context": "https://openvex.dev/ns/v0.2.0",
-  "@id": "https://openvex.dev/docs/public/vex-b1ab9d57afa553a7d927719679b675eedceb2ba8590bc3c927622f8e8e7b930e",
+  "@id": "https://openvex.dev/docs/public/vex-6be2641aeb51b27875fa2435165dd63fe60606bad80207a96411118bf794b4e8",
   "author": "ActiveState",
-  "timestamp": "2025-06-19T13:41:01.923597-03:00",
+  "timestamp": "2025-06-20T15:47:10.770479-03:00",
   "version": 1,
   "statements": [
     {
       "vulnerability": {
         "name": "GHSA-v6h2-p8h4-qcjw"
       },
-      "timestamp": "2025-06-19T13:41:01.923597-03:00",
+      "timestamp": "2025-06-20T15:47:10.77048-03:00",
       "products": [
         {
           "@id": "pkg:oci/node@sha256%3A8cd19f01c044d868fe5cb220d18991b19b58bfad0366cc25295f263eabb8ebd2?repository_url=docker-registry.activestate.build/org-activestate"
@@ -17,7 +17,7 @@
       ],
       "status": "not_affected",
       "justification": "inline_mitigations_already_exist",
-      "impact_statement": "The Regular Expression Denial of Service vulnerability in brace-expansion has been mitigated by manually applying patch commit a5b98a4f30d7813266b221435e1eaaf25a1b0ac5 which fixes the inefficient regular expression complexity in the expand function."
+      "impact_statement": "brace-expansion ReDoS patched manually (commit a5b98a4…)."
     }
   ]
 }

@@ -1,0 +1,23 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "https://openvex.dev/docs/public/vex-a07d99fcd1114e784131ee5d13b8f300fc93ff0e33f08c13f03493c3d6b54897",
+  "author": "ActiveState",
+  "timestamp": "2025-06-20T15:47:10.794436-03:00",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "GHSA-v6h2-p8h4-qcjw"
+      },
+      "timestamp": "2025-06-20T15:47:10.794437-03:00",
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A8cd19f01c044d868fe5cb220d18991b19b58bfad0366cc25295f263eabb8ebd2?repository_url=index.docker.io/activestate"
+        }
+      ],
+      "status": "not_affected",
+      "justification": "inline_mitigations_already_exist",
+      "impact_statement": "brace-expansion ReDoS patched manually (commit a5b98a4…)."
+    }
+  ]
+}

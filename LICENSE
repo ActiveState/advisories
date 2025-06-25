@@ -1,0 +1,17 @@
+ActiveState SCA Tools Restricted License
+ver. June 23, 2025
+This ActiveState SCA Tools Restricted License (“Restricted License”) is a legally binding agreement between ActiveState Software Inc. (“ActiveState”) and any individual or entity that accesses or uses Licensed Work under this Restricted License (“User”).
+
+Scope: If User is a provider of software composition analysis tools or services (“SCA Tools”), it may access and use any advisories, data, code, or other materials licensed (“Licensed Work”) under this SCA Tools License (“Restricted License”), solely in accordance with the terms set forth herein. The Restricted License grants the User a non-exclusive, worldwide, royalty-free, non-sublicensable, irrevocable right to use the Licensed Work for internal purposes only,  as long as ActiveState provides access to the Licensed Work.
+
+This Restricted License governs the use of any advisories, data, code, or other materials made available by ActiveState (“Licensed Work”) to a User providing software composition analysis tools or services (“SCA Tools”). Subject to the terms of this Restricted License, ActiveState grants User a non-exclusive, worldwide, royalty-free, non-sublicensable, and irrevocable right to access and use the Licensed Work, only for so long as ActiveState continues to make such Licensed Work publicly available.
+
+Restrictions: Use of the Licensed Work is strictly prohibited:
+(a) in any way that benefits or provides competitive advantage to any competitor of ActiveState,   
+(b) to develop, improve, or support any product or service that competes with ActiveState offerings,
+(c) to modify, adapt, or create derivative works of the Licensed Work, or
+(d) for commercial redistribution or standalone distribution.
+
+Conditions: Any use of the Licensed Work must include clear attribution to ActiveState, including a copyright notice and reference to this Restricted License. This License does not grant any rights to use ActiveState’s trademarks, logo, Licensed Works or other intellectual property in any way not expressly set forth herein. Any breach of this Restricted License automatically terminates all rights granted hereunder.
+
+ Disclaimers: The Licensed Work is provided “as is” without any warranties or conditions of any kind. To the fullest extent permitted by applicable law, ActiveState disclaims all express, implied, and statutory warranties, including but not limited to warranties of merchantability, fitness for a particular purpose, title, and non-infringement. ActiveState shall not be liable for any direct, indirect, incidental, consequential, special, exemplary, or punitive damages arising from or related to the use of, or inability to use, the Licensed Work, regardless of the legal theory and even if advised of the possibility of such damages. These disclaimers and limitations apply to the maximum extent permitted by law.

@@ -1,0 +1,13 @@
+{
+  "name": "ActiveState VEX repository.",
+  "description": "A VEX document repository for ActiveState.",
+  "versions": [
+    {
+      "spec_version": "0.1",
+      "locations": [
+        "RepositoryLocation(url='https://github.com/ActiveState/advisories.tar.gz//trivy_vexhub')"
+      ],
+      "update_interval": "12h"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "updated_at": "2025-11-17T12:00:00+00:00",
+  "packages": [
+    {
+      "id": "pkg:generic/python@3.13.7",
+      "location": "pkg/generic/python",
+      "format": "openvex"
+    }
+  ]
+}

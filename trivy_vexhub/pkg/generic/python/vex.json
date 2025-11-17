@@ -1,0 +1,64 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "https://activestate.com/security/advisories/python/3.13.7/",
+  "author": "ActiveState",
+  "timestamp": "2025-11-17T23:54:46.526382+00:00",
+  "last_updated": "2025-11-17T23:54:46.526847+00:00",
+  "version": 1,
+  "statements": [
+    {
+      "@id": "https://activestate.com/security/advisories/python/3.13.7/CVE-2025-8194",
+      "vulnerabiliy": {
+        "name": "CVE-2025-8194"
+      },
+      "timestamp": "2025-11-17T23:54:46.526382+00:00",
+      "last_updated": "1970-01-01T00:00:00+00:00",
+      "products": [
+        {
+          "@id": "pkg:oci/python@de6edc9dc54f754f2e190abe803fababb6f84f260cedf3d214d00cb09fba4b4d?repository_url=registry.activestate.com/trivy/python",
+          "identifiers": {
+            "purl": "pkg:generic/python@3.13.7"
+          },
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/python@3.13.7",
+              "identifiers": {
+                "purl": "pkg:generic/python@3.13.7"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "affected",
+      "action_statement": "Upstream fix not yet released. https://github.com/python/cpython/pull/137170",
+      "action_statement_timestamp": "2025-11-17T12:00:00+00:00"
+    },
+    {
+      "@id": "https://activestate.com/security/advisories/python/3.13.7/CVE-2025-6069",
+      "vulnerabiliy": {
+        "name": "CVE-2025-6069"
+      },
+      "timestamp": "2025-11-17T23:54:46.526382+00:00",
+      "last_updated": "1970-01-01T00:00:00+00:00",
+      "products": [
+        {
+          "@id": "pkg:oci/python@de6edc9dc54f754f2e190abe803fababb6f84f260cedf3d214d00cb09fba4b4d?repository_url=registry.activestate.com/trivy/python",
+          "identifiers": {
+            "purl": "pkg:generic/python@3.13.7"
+          },
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/python@3.13.7",
+              "identifiers": {
+                "purl": "pkg:generic/python@3.13.7"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "The vulnerable code was patched by ActiveState manually (commit b62877993d8e2a0c19f1ae803eae2629675b3d40)."
+    }
+  ]
+}

@@ -1,9 +1,14 @@
 {
-  "updated_at": "2025-11-17T12:00:00+00:00",
+  "updated_at": "2025-12-03T12:00:00+00:00",
   "packages": [
     {
       "id": "pkg:generic/python@3.13.7",
       "location": "pkg/generic/python",
+      "format": "openvex"
+    },
+    {
+      "id": "pkg:generic/busybox@1.37.0",
+      "location": "pkg/generic/busybox",
       "format": "openvex"
     }
   ]

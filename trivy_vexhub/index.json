@@ -3,7 +3,7 @@
   "packages": [
     {
       "id": "pkg:generic/python@3.13.7",
-      "location": "pkg/generic/python",
+      "location": "pkg/generic/python/vex.json",
       "format": "openvex"
     }
   ]

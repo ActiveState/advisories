@@ -8,7 +8,7 @@
   "statements": [
     {
       "@id": "https://activestate.com/security/advisories/python/3.13.7/CVE-2025-8194",
-      "vulnerabiliy": {
+      "vulnerability": {
         "name": "CVE-2025-8194"
       },
       "timestamp": "2025-11-17T23:54:46.526382+00:00",
@@ -35,7 +35,7 @@
     },
     {
       "@id": "https://activestate.com/security/advisories/python/3.13.7/CVE-2025-6069",
-      "vulnerabiliy": {
+      "vulnerability": {
         "name": "CVE-2025-6069"
       },
       "timestamp": "2025-11-17T23:54:46.526382+00:00",

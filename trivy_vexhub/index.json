@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-11-17T12:00:00+00:00",
+  "updated_at": "2025-12-03T12:00:00+00:00",
   "packages": [
     {
       "id": "pkg:generic/python@3.13.7",
@@ -9,6 +9,11 @@
     {
       "id": "pkg:golang/github.com/k3s-io/k3s@1.34.1+k3s1",
       "location": "pkg/golang/github.com/k3s-io/k3s/vex.json",
+      "format": "openvex"
+    },
+    {
+      "id": "pkg:generic/busybox@1.37.0",
+      "location": "pkg/generic/busybox",
       "format": "openvex"
     }
   ]

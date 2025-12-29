@@ -5,6 +5,11 @@
       "id": "pkg:generic/python@3.13.7",
       "location": "pkg/generic/python/vex.json",
       "format": "openvex"
+    },
+    {
+      "id": "pkg:golang/github.com/k3s-io/k3s@1.34.1+k3s1",
+      "location": "pkg/golang/github.com/k3s-io/k3s/vex.json",
+      "format": "openvex"
     }
   ]
 }

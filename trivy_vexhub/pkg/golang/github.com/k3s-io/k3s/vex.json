@@ -1,6 +1,6 @@
 {
   "@context": "https://openvex.dev/ns/v0.2.0",
-  "@id": "https://activestate.com/security/advisories/k3s/1.34.1+k3s1"
+  "@id": "https://activestate.com/security/advisories/k3s/1.34.1+k3s1",
   "author": "ActiveState",
   "timestamp": "2025-12-22T19:27:55.951188+00:00",
   "last_updated": "2025-12-22T19:27:55.951645+00:00",

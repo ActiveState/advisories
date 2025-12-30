@@ -17,7 +17,7 @@
         {
           "@id": "pkg:oci/k3s@sha256%3A52c7e9054dcdc490c3a54840f0d8f11d9c7a364d15c0c6fd9ad66b12f8265cda?repository_url=index.docker.io/activestate",
           "identifiers": {
-            "purl": "pkg:golang/github.com/k3s-io/k3s@1.34.1+k3s1"
+            "purl": "pkg:golang/github.com/k3s-io/k3s@v1.34.1+k3s1"
           },
           "subcomponents": [
             {
@@ -31,7 +31,7 @@
         {
           "@id": "pkg:oci/k3s@sha256%3A52c7e9054dcdc490c3a54840f0d8f11d9c7a364d15c0c6fd9ad66b12f8265cda?repository_url=docker-registry.activestate.build/org-activestate",
           "identifiers": {
-            "purl": "pkg:golang/github.com/k3s-io/k3s@1.34.1+k3s1"
+            "purl": "pkg:golang/github.com/k3s-io/k3s@v1.34.1+k3s1"
           },
           "subcomponents": [
             {

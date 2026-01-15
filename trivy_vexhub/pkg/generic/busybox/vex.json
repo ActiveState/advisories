@@ -1,0 +1,154 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "https://activestate.com/security/advisories/go-dev/1.25.3",
+  "author": "ActiveState",
+  "timestamp": "2025-12-04T00:05:41.208806+00:00",
+  "last_updated": "2025-12-04T00:05:41.209393+00:00",
+  "version": 1,
+  "statements": [
+    {
+      "@id": "https://activestate.com/security/advisories/go-dev/1.25.3/CVE-2025-46394",
+      "vulnerabiliy": {
+        "name": "CVE-2025-46394"
+      },
+      "timestamp": "2025-12-04T00:05:41.208806+00:00",
+      "last_updated": "1970-01-01T00:00:00+00:00",
+      "products": [
+        {
+          "@id": "pkg:oci/go-dev@sha256%3Aeb1b7053381215fbc10b652829951aa4c72d6add58d8ba89bb5fa40a071b0b8f?repository_url=registry.activestate.com/trivy",
+          "identifiers": {
+            "purl": "pkg:generic/go-dev@1.25.3"
+          },
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/busybox@1.37.0",
+              "identifiers": {
+                "purl": "pkg:generic/busybox@1.37.0"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "This only impacts tar in BusyBox. ActiveState does not include busybox tar in the container."
+    },
+    {
+      "@id": "https://activestate.com/security/advisories/go-dev/1.25.3/CVE-2024-58251",
+      "vulnerabiliy": {
+        "name": "CVE-2024-58251"
+      },
+      "timestamp": "2025-12-04T00:05:41.208806+00:00",
+      "last_updated": "1970-01-01T00:00:00+00:00",
+      "products": [
+        {
+          "@id": "pkg:oci/go-dev@sha256%3Aeb1b7053381215fbc10b652829951aa4c72d6add58d8ba89bb5fa40a071b0b8f?repository_url=registry.activestate.com/trivy",
+          "identifiers": {
+            "purl": "pkg:generic/go-dev@1.25.3"
+          },
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/busybox@1.37.0",
+              "identifiers": {
+                "purl": "pkg:generic/busybox@1.37.0"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "This only impacts netstat in BusyBox. ActiveState does not include busybox netstat in the container."
+    }
+  ]
+}{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "https://activestate.com/security/advisories/openvex_feed.json",
+  "author": "ActiveState",
+  "timestamp": "2025-12-04T00:05:41.210120+00:00",
+  "last_updated": "2025-12-04T00:05:41.210617+00:00",
+  "version": 1,
+  "statements": [
+    {
+      "@id": "https://activestate.com/security/advisories/go-dev/1.25.3/CVE-2023-4039",
+      "vulnerabiliy": {
+        "name": "CVE-2023-4039"
+      },
+      "timestamp": "2025-12-04T00:05:41.210120+00:00",
+      "last_updated": "1970-01-01T00:00:00+00:00",
+      "products": [
+        {
+          "@id": "pkg:oci/go-dev@sha256%3Aeb1b7053381215fbc10b652829951aa4c72d6add58d8ba89bb5fa40a071b0b8f?repository_url=registry.activestate.com/trivy",
+          "identifiers": {
+            "purl": "pkg:generic/go-dev@1.25.3"
+          },
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/gcc@13.4.0",
+              "identifiers": {
+                "purl": "pkg:generic/gcc@13.4.0"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "This version of gcc contains the patch."
+    },
+    {
+      "@id": "https://activestate.com/security/advisories/go-dev/1.25.3/CVE-2025-46394",
+      "vulnerabiliy": {
+        "name": "CVE-2025-46394"
+      },
+      "timestamp": "2025-12-04T00:05:41.210120+00:00",
+      "last_updated": "1970-01-01T00:00:00+00:00",
+      "products": [
+        {
+          "@id": "pkg:oci/go-dev@sha256%3Aeb1b7053381215fbc10b652829951aa4c72d6add58d8ba89bb5fa40a071b0b8f?repository_url=registry.activestate.com/trivy",
+          "identifiers": {
+            "purl": "pkg:generic/go-dev@1.25.3"
+          },
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/busybox@1.37.0",
+              "identifiers": {
+                "purl": "pkg:generic/busybox@1.37.0"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "This only impacts tar in BusyBox. ActiveState does not include busybox tar in the container."
+    },
+    {
+      "@id": "https://activestate.com/security/advisories/go-dev/1.25.3/CVE-2024-58251",
+      "vulnerabiliy": {
+        "name": "CVE-2024-58251"
+      },
+      "timestamp": "2025-12-04T00:05:41.210120+00:00",
+      "last_updated": "1970-01-01T00:00:00+00:00",
+      "products": [
+        {
+          "@id": "pkg:oci/go-dev@sha256%3Aeb1b7053381215fbc10b652829951aa4c72d6add58d8ba89bb5fa40a071b0b8f?repository_url=registry.activestate.com/trivy",
+          "identifiers": {
+            "purl": "pkg:generic/go-dev@1.25.3"
+          },
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/busybox@1.37.0",
+              "identifiers": {
+                "purl": "pkg:generic/busybox@1.37.0"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "This only impacts netstat in BusyBox. ActiveState does not include busybox netstat in the container."
+    }
+  ]
+}

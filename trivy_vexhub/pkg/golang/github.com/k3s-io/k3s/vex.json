@@ -1,13 +1,13 @@
 {
   "@context": "https://openvex.dev/ns/v0.2.0",
-  "@id": "https://activestate.com/security/advisories/k3s/v1.34.1+k3s1/",
+  "@id": "https://activestate.com/security/advisories/k3s/v1.34.1%2Bk3s1/",
   "author": "ActiveState",
   "timestamp": "2026-01-12T20:49:24.101275+00:00",
   "last_updated": "2026-01-12T20:49:24.101648+00:00",
   "version": 1,
   "statements": [
     {
-      "@id": "https://activestate.com/security/advisories/k3s/v1.34.1+k3s1/CVE-2025-54410",
+      "@id": "https://activestate.com/security/advisories/k3s/v1.34.1%2Bk3s1/CVE-2025-54410",
       "vulnerability": {
         "name": "CVE-2025-54410"
       },
@@ -17,7 +17,7 @@
         {
           "@id": "pkg:oci/k3s@sha256%3Ac4c703e744bda2ac1270cf2992210a6d5e52a03c28b8d9b21a9d455e62e7c962?repository_url=docker-registry.activestate.build/org-activestate",
           "identifiers": {
-            "purl": "pkg:golang/github.com/k3s-io/k3s@v1.34.1+k3s1"
+            "purl": "pkg:golang/github.com/k3s-io/k3s@v1.34.1%2Bk3s1"
           },
           "subcomponents": [
             {
@@ -31,7 +31,7 @@
         {
           "@id": "pkg:oci/k3s@sha256%3Ac4c703e744bda2ac1270cf2992210a6d5e52a03c28b8d9b21a9d455e62e7c962?repository_url=index.docker.io/activestate",
           "identifiers": {
-            "purl": "pkg:golang/github.com/k3s-io/k3s@v1.34.1+k3s1"
+            "purl": "pkg:golang/github.com/k3s-io/k3s@v1.34.1%2Bk3s1"
           },
           "subcomponents": [
             {

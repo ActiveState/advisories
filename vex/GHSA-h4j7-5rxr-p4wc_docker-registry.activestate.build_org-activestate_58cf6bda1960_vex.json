@@ -1,0 +1,23 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "https://openvex.dev/docs/public/vex-3e382eadf098b1dd962136e87d2b1d777390aac74a825afc8ad960bb0e79f32c",
+  "author": "ActiveState",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "GHSA-h4j7-5rxr-p4wc"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/dotnet-sdk@sha256%3A58cf6bda19602c02d8357fdc7edcc125f168fb5b977f9efe40aca7d48d0d406c?repository_url=docker-registry.activestate.build/org-activestate"
+        }
+      ],
+      "status": "not_affected",
+      "justification": "component_not_present",
+      "impact_statement": "The ActiveState image does not include Microsoft Build Tasks Core 17.3.4 in the container. This is a false positive.",
+      "timestamp": "2025-12-31T18:28:31.588984529Z"
+    }
+  ],
+  "timestamp": "2025-12-31T18:28:31Z"
+}

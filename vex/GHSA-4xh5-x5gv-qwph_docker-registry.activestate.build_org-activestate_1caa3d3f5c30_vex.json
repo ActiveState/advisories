@@ -1,0 +1,23 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "https://openvex.dev/docs/public/vex-7bcbff12cb6c1145120c3e238d87576f766d7e3c66fa0346e05dfbfb02d63f5c",
+  "author": "ActiveState",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "GHSA-4xh5-x5gv-qwph"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/python-dev@sha256%3A1caa3d3f5c307dbc0a577d25ab7155f116d38aade56ca6dbfa4e5032cd5d5374?repository_url=docker-registry.activestate.build/org-activestate"
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "This version of pip contains the patch.",
+      "timestamp": "2025-10-10T21:16:35.030269564Z"
+    }
+  ],
+  "timestamp": "2025-10-10T21:16:35Z"
+}

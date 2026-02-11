@@ -1,0 +1,23 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "https://openvex.dev/docs/public/vex-84931ebe33d20135b948a1bb9e12f79ab3881521fb4e1a5d68f5929dea72a7b0",
+  "author": "ActiveState",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "GHSA-4vq8-7jfc-9cvp"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/k3s@sha256%3A51e01a4fb9268cae9f554024cba1354c9cdd0e5e1c2984d7ec7d7197d131f652?repository_url=index.docker.io/activestate"
+        }
+      ],
+      "status": "affected",
+      "action_statement": "Specifc version of this dependency is required by this version of k3s.",
+      "action_statement_timestamp": "2025-10-31T12:48:27.772539894-04:00",
+      "timestamp": "2025-10-31T16:48:27.772539894Z"
+    }
+  ],
+  "timestamp": "2025-10-31T16:48:27Z"
+}

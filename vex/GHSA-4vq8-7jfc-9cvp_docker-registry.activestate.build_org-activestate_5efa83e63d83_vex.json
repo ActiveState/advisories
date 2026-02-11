@@ -1,0 +1,23 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "https://openvex.dev/docs/public/vex-e76b9eb076e9ea1c35aa33b37fbd68fe68619968b3db3ac6386fc57db2e683ba",
+  "author": "ActiveState",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "GHSA-4vq8-7jfc-9cvp"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/k3s@sha256%3A5efa83e63d83328bc96d4539afb457b1f5567998a99291328686dac6d5ff42fb?repository_url=docker-registry.activestate.build/org-activestate"
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_cannot_be_controlled_by_adversary",
+      "impact_statement": "For this vulnerability to be exploited, Docker needs to be run as daemon.  However, k3s uses the client interface to Docker, and does not start a Docker daemon.",
+      "timestamp": "2026-01-30T21:25:08.595414449Z"
+    }
+  ],
+  "timestamp": "2026-01-30T21:25:08Z"
+}
